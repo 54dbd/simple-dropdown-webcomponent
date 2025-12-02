@@ -1,6 +1,6 @@
 {
   "name": "simple-dropdown-webcomponent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight, animated, themeable dropdown web component",
   "main": "src/simple_dropdown_menu.js",
   "type": "module",
