@@ -2,7 +2,6 @@
   "name": "simple-dropdown-webcomponent",
   "version": "1.0.1",
   "description": "A lightweight, animated, themeable dropdown web component",
-  "main": "src/simple_dropdown_menu.js",
   "type": "module",
   "author": "RossZhu",
   "license": "MIT",
@@ -16,8 +15,20 @@
   "files": [
     "src"
   ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/54dbd/simple-dropdown-webcomponent.git"
+  },
+  "main": "dist/simple-dropdown.js",
+  "module": "dist/simple-dropdown.js",
+  "exports": {
+    ".": "./dist/simple-dropdown.js"
+  },
+  "devDependencies": {
+    "vite": "^7.2.6"
   }
 }
