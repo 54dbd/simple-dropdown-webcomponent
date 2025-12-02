@@ -1,0 +1,23 @@
+{
+  "name": "simple-dropdown-webcomponent",
+  "version": "1.0.0",
+  "description": "A lightweight, animated, themeable dropdown web component",
+  "main": "src/SimpleDropdown.js",
+  "type": "module",
+  "author": "RossZhu",
+  "license": "MIT",
+  "keywords": [
+    "web-component",
+    "dropdown",
+    "custom-element",
+    "lightweight",
+    "themeable"
+  ],
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/simple-dropdown-webcomponent.git"
+  }
+}
