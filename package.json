@@ -1,6 +1,6 @@
 {
   "name": "simple-dropdown-webcomponent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight, animated, themeable dropdown web component",
   "type": "module",
   "author": "RossZhu",

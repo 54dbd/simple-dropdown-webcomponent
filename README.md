@@ -22,10 +22,13 @@ Supports click / hover modes, fade & slide animation, and light/dark themes.
 npm install simple-dropdown-webcomponent
 ```
 # ⚡ Usage
+## JS
+```js
+import "simple-dropdown-webcomponent";
+```
+
 ## HTML
 ```html
-<script type="module" src="node_modules/simple-dropdown-webcomponent/src/SimpleDropdown.js"></script>
-
 <simple-dropdown label="Menu">
   <li>Item 1</li>
   <li>Item 2</li>
@@ -36,6 +39,7 @@ npm install simple-dropdown-webcomponent
   <li>A</li>
   <li>B</li>
 </simple-dropdown>
+<script src="index.js" type="module"/>
 ```
 ## CSS Customization (Optional)
 ```css
